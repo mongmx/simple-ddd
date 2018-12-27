@@ -2,8 +2,8 @@
 -- +migrate Up
 create table suppliers (
 	id bigserial,
-    type varchar,
-	code varchar not null, -- maybe car-plate or lock number
+	type varchar,
+	code varchar not null,
 	created_at timestamp default now(),
 	updated_at timestamp default now(),
 	deleted_at timestamp null,
