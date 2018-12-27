@@ -12,10 +12,10 @@ import (
 
 const (
 	dbPort   = "5432"
-	dbHost   = "9tom.me"
-	dbUser   = "paybox"
-	dbPass   = "paybox"
-	dbName   = "paybox"
+	dbHost   = "domain"
+	dbUser   = "user"
+	dbPass   = "pass"
+	dbName   = "db"
 	sslMode  = "disable"
 	clientID = 0
 )
