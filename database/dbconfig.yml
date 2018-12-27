@@ -1,17 +1,17 @@
 development:
   dialect: postgres
-  datasource: host=localhost port=5432 user=root password=root dbname=talad sslmode=disable
+  datasource: host=localhost port=5432 user=root password=root dbname=db sslmode=disable
   dir: migrations/postgres
   table: migrations
 
 staging:
   dialect: postgres
-  datasource: host=139.5.147.215 port=5432 user=pgkad password=pgkad dbname=cnxdb sslmode=disable
+  datasource: host=ip port=5432 user=xxx password=xxx dbname=xxx sslmode=disable
   dir: migrations/postgres
   table: migrations
 
 # production:
 #   dialect: postgres
-#   datasource: dbname=c9db sslmode=disable
+#   datasource: dbname=db sslmode=disable
 #   dir: migrations/postgres
 #   table: migrations
